@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.egg-info/
+build/
+dist/
+tmp/
+# Original local archive and reference documents are not part of the code release.
+interface_peoblem_code/
+*.docx
+*.pdf
+!figures/README.md
+# Generated outputs are reproducible from the supplied scripts.
+results/*/
+figures/*/
+results/paper_accuracy_latest.csv
