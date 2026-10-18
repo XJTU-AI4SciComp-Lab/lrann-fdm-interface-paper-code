@@ -1,0 +1,7 @@
+{
+  "name": "example_three_ad",
+  "script": "experiments/ex3_three_interface/three_interface_auto_diff_paper.py",
+  "seed": null,
+  "repeats": 1,
+  "arguments": []
+}

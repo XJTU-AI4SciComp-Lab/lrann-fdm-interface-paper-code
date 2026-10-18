@@ -1,0 +1,7 @@
+{
+  "name": "example_square",
+  "script": "experiments/ex4_square/square_interface_oscillate_solution.py",
+  "seed": null,
+  "repeats": 1,
+  "arguments": []
+}

@@ -1,0 +1,25 @@
+{
+  "name": "figure_05",
+  "script": "experiments/ex2_sphere/sphere_interface_paper_final.py",
+  "seed": null,
+  "repeats": 1,
+  "arguments": [
+    "-n1",
+    "8000",
+    "-n2",
+    "400",
+    "-n3",
+    "2400",
+    "-m",
+    "640",
+    "-alpha1",
+    "1",
+    "-alpha2",
+    "1000"
+  ],
+  "figure": {
+    "number": 5,
+    "geometry": "sphere",
+    "resolution": 300
+  }
+}

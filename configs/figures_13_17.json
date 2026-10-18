@@ -1,0 +1,46 @@
+{
+  "name": "figures_13_17",
+  "script": "experiments/ex6_moving_interface/heat_interface_change_paper_final.py",
+  "seed": null,
+  "repeats": 1,
+  "arguments": [
+    "-n1",
+    "1000",
+    "-n2",
+    "100",
+    "-n3",
+    "500",
+    "-m",
+    "640",
+    "-alpha1",
+    "1",
+    "-alpha2",
+    "1"
+  ],
+  "figure": {
+    "geometry": "moving",
+    "resolution": 300,
+    "snapshots": [
+      {
+        "number": 13,
+        "time": 0
+      },
+      {
+        "number": 14,
+        "time": 0.25
+      },
+      {
+        "number": 15,
+        "time": 0.5
+      },
+      {
+        "number": 16,
+        "time": 0.75
+      },
+      {
+        "number": 17,
+        "time": 1
+      }
+    ]
+  }
+}

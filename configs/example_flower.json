@@ -1,0 +1,7 @@
+{
+  "name": "example_flower",
+  "script": "experiments/ex1_flower/ex1_case1/flower_interface_paper_final.py",
+  "seed": null,
+  "repeats": 1,
+  "arguments": []
+}

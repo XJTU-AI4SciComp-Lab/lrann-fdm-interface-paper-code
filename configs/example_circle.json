@@ -1,0 +1,7 @@
+{
+  "name": "example_circle",
+  "script": "experiments/ex1_flower/ex1_case2/circle_2d_1l.py",
+  "seed": null,
+  "repeats": 1,
+  "arguments": []
+}

@@ -1,0 +1,25 @@
+{
+  "name": "figure_07",
+  "script": "experiments/ex4_square/square_interface_oscillate_solution.py",
+  "seed": null,
+  "repeats": 1,
+  "arguments": [
+    "-n1",
+    "10000",
+    "-n2",
+    "100",
+    "-n3",
+    "400",
+    "-m",
+    "1280",
+    "-k1",
+    "3",
+    "-k2",
+    "1"
+  ],
+  "figure": {
+    "number": 7,
+    "geometry": "square",
+    "resolution": 300
+  }
+}

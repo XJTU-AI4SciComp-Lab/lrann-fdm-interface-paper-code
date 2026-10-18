@@ -1,0 +1,7 @@
+{
+  "name": "example_mixed_sphere",
+  "script": "experiments/ex2_sphere/mix_sphere_interface.py",
+  "seed": null,
+  "repeats": 1,
+  "arguments": []
+}

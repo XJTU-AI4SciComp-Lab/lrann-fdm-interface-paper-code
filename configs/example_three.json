@@ -1,0 +1,7 @@
+{
+  "name": "example_three",
+  "script": "experiments/ex3_three_interface/three_interface_paper_final.py",
+  "seed": null,
+  "repeats": 1,
+  "arguments": []
+}

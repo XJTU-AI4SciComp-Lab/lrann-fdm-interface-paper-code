@@ -1,0 +1,83 @@
+{
+  "name": "table_15",
+  "base": {
+    "script": "experiments/ex2_sphere/mix_sphere_interface.py",
+    "seed": null,
+    "repeats": 10,
+    "arguments": [
+      "-n1",
+      "3375",
+      "-n2",
+      "225",
+      "-n3",
+      "1350",
+      "-m",
+      "640"
+    ]
+  },
+  "cases": [
+    {
+      "label": "beta=(1,10)",
+      "arguments": [
+        "-alpha1",
+        "1",
+        "-alpha2",
+        "10"
+      ]
+    },
+    {
+      "label": "beta=(1,1000)",
+      "arguments": [
+        "-alpha1",
+        "1",
+        "-alpha2",
+        "1000"
+      ]
+    },
+    {
+      "label": "beta=(1,100000)",
+      "arguments": [
+        "-alpha1",
+        "1",
+        "-alpha2",
+        "100000"
+      ]
+    },
+    {
+      "label": "beta=(1,10000000)",
+      "arguments": [
+        "-alpha1",
+        "1",
+        "-alpha2",
+        "10000000"
+      ]
+    },
+    {
+      "label": "beta=(1,0.01)",
+      "arguments": [
+        "-alpha1",
+        "1",
+        "-alpha2",
+        "0.01"
+      ]
+    },
+    {
+      "label": "beta=(0.01,100)",
+      "arguments": [
+        "-alpha1",
+        "0.01",
+        "-alpha2",
+        "100"
+      ]
+    },
+    {
+      "label": "beta=(0.0001,10000)",
+      "arguments": [
+        "-alpha1",
+        "0.0001",
+        "-alpha2",
+        "10000"
+      ]
+    }
+  ]
+}

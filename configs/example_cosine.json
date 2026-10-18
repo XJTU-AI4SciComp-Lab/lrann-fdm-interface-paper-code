@@ -1,0 +1,7 @@
+{
+  "name": "example_cosine",
+  "script": "experiments/ex4_square/square_interface_oscillate_cosine.py",
+  "seed": null,
+  "repeats": 1,
+  "arguments": []
+}

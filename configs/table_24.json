@@ -1,0 +1,119 @@
+{
+  "name": "table_24",
+  "base": {
+    "script": "experiments/ex5_high_dimension/hyper_plane_interface_paper_final.py",
+    "seed": null,
+    "repeats": 10,
+    "arguments": []
+  },
+  "cases": [
+    {
+      "label": "d=5, m=225",
+      "arguments": [
+        "-dim",
+        "5",
+        "-m",
+        "225"
+      ]
+    },
+    {
+      "label": "d=5, m=450",
+      "arguments": [
+        "-dim",
+        "5",
+        "-m",
+        "450"
+      ]
+    },
+    {
+      "label": "d=5, m=900",
+      "arguments": [
+        "-dim",
+        "5",
+        "-m",
+        "900"
+      ]
+    },
+    {
+      "label": "d=5, m=1800",
+      "arguments": [
+        "-dim",
+        "5",
+        "-m",
+        "1800"
+      ]
+    },
+    {
+      "label": "d=10, m=225",
+      "arguments": [
+        "-dim",
+        "10",
+        "-m",
+        "225"
+      ]
+    },
+    {
+      "label": "d=10, m=450",
+      "arguments": [
+        "-dim",
+        "10",
+        "-m",
+        "450"
+      ]
+    },
+    {
+      "label": "d=10, m=900",
+      "arguments": [
+        "-dim",
+        "10",
+        "-m",
+        "900"
+      ]
+    },
+    {
+      "label": "d=10, m=1800",
+      "arguments": [
+        "-dim",
+        "10",
+        "-m",
+        "1800"
+      ]
+    },
+    {
+      "label": "d=20, m=225",
+      "arguments": [
+        "-dim",
+        "20",
+        "-m",
+        "225"
+      ]
+    },
+    {
+      "label": "d=20, m=450",
+      "arguments": [
+        "-dim",
+        "20",
+        "-m",
+        "450"
+      ]
+    },
+    {
+      "label": "d=20, m=900",
+      "arguments": [
+        "-dim",
+        "20",
+        "-m",
+        "900"
+      ]
+    },
+    {
+      "label": "d=20, m=1800",
+      "arguments": [
+        "-dim",
+        "20",
+        "-m",
+        "1800"
+      ]
+    }
+  ]
+}

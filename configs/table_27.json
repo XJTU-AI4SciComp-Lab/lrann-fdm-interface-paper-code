@@ -1,0 +1,74 @@
+{
+  "name": "table_27",
+  "base": {
+    "script": "experiments/ex6_moving_interface/heat_interface_change_paper_final.py",
+    "seed": null,
+    "repeats": 10,
+    "arguments": [
+      "-n1",
+      "1000",
+      "-n2",
+      "100",
+      "-n3",
+      "500",
+      "-m",
+      "640"
+    ]
+  },
+  "cases": [
+    {
+      "label": "beta=(1,100)",
+      "arguments": [
+        "-alpha1",
+        "1",
+        "-alpha2",
+        "100"
+      ]
+    },
+    {
+      "label": "beta=(1,10000)",
+      "arguments": [
+        "-alpha1",
+        "1",
+        "-alpha2",
+        "10000"
+      ]
+    },
+    {
+      "label": "beta=(0.01,100)",
+      "arguments": [
+        "-alpha1",
+        "0.01",
+        "-alpha2",
+        "100"
+      ]
+    },
+    {
+      "label": "beta=(100,0.01)",
+      "arguments": [
+        "-alpha1",
+        "100",
+        "-alpha2",
+        "0.01"
+      ]
+    },
+    {
+      "label": "beta=(10000,1)",
+      "arguments": [
+        "-alpha1",
+        "10000",
+        "-alpha2",
+        "1"
+      ]
+    },
+    {
+      "label": "beta=(100,1)",
+      "arguments": [
+        "-alpha1",
+        "100",
+        "-alpha2",
+        "1"
+      ]
+    }
+  ]
+}

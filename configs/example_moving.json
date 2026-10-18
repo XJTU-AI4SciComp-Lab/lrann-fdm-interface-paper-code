@@ -1,0 +1,7 @@
+{
+  "name": "example_moving",
+  "script": "experiments/ex6_moving_interface/heat_interface_change_paper_final.py",
+  "seed": null,
+  "repeats": 1,
+  "arguments": []
+}

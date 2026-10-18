@@ -1,0 +1,24 @@
+{
+  "name": "smoke",
+  "script": "experiments/ex4_square/square_interface_oscillate_solution.py",
+  "seed": 2026,
+  "threads": 1,
+  "repeats": 1,
+  "arguments": [
+    "-n1",
+    "64",
+    "-n2",
+    "8",
+    "-n3",
+    "32",
+    "-n_int",
+    "4",
+    "-m",
+    "16"
+  ],
+  "figure": {
+    "geometry": "square",
+    "number": 8,
+    "resolution": 24
+  }
+}

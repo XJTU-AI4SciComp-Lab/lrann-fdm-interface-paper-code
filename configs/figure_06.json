@@ -1,0 +1,29 @@
+{
+  "name": "figure_06",
+  "script": "experiments/ex3_three_interface/three_interface_paper_final.py",
+  "seed": null,
+  "repeats": 1,
+  "arguments": [
+    "-n1",
+    "3600",
+    "-n2",
+    "60",
+    "-n3",
+    "240",
+    "-m",
+    "320",
+    "-alpha0",
+    "1",
+    "-alpha1",
+    "2",
+    "-alpha2",
+    "3",
+    "-alpha3",
+    "4"
+  ],
+  "figure": {
+    "number": 6,
+    "geometry": "three_interfaces",
+    "resolution": 300
+  }
+}

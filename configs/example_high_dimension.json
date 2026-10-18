@@ -1,0 +1,7 @@
+{
+  "name": "example_high_dimension",
+  "script": "experiments/ex5_high_dimension/hyper_plane_interface_paper_final.py",
+  "seed": null,
+  "repeats": 1,
+  "arguments": []
+}

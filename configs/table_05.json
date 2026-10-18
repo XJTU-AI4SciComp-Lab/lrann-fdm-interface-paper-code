@@ -1,0 +1,419 @@
+{
+  "name": "table_05",
+  "base": {
+    "script": "experiments/ex1_flower/ex1_case2/circle_2d_1l.py",
+    "seed": null,
+    "repeats": 10,
+    "arguments": []
+  },
+  "cases": [
+    {
+      "label": "circle_1l_tanh, N=40, Nc=1920, m=1280",
+      "script": "experiments/ex1_flower/ex1_case2/circle_2d_1l.py",
+      "arguments": [
+        "-n1",
+        "1600",
+        "-n2",
+        "40",
+        "-n3",
+        "160",
+        "-m",
+        "1280",
+        "-r1",
+        "1.2",
+        "-r2",
+        "5"
+      ]
+    },
+    {
+      "label": "circle_1l_sin, N=40, Nc=1920, m=1280",
+      "script": "experiments/ex1_flower/ex1_case2/circle_2d_1l.py",
+      "arguments": [
+        "-n1",
+        "1600",
+        "-n2",
+        "40",
+        "-n3",
+        "160",
+        "-m",
+        "1280",
+        "-r1",
+        "1.2",
+        "-r2",
+        "24",
+        "--outer-activation",
+        "sin"
+      ]
+    },
+    {
+      "label": "circle_2l_tanh_sin, N=40, Nc=1920, m=1280",
+      "script": "experiments/ex1_flower/ex1_case2/circle_2d_2l_tanh_sin.py",
+      "arguments": [
+        "-n1",
+        "1600",
+        "-n2",
+        "40",
+        "-n3",
+        "160",
+        "-m",
+        "1280",
+        "-r1",
+        "1.2"
+      ]
+    },
+    {
+      "label": "circle_2l_sin_sin, N=40, Nc=1920, m=1280",
+      "script": "experiments/ex1_flower/ex1_case2/circle_2d_2l_sin_sin.py",
+      "arguments": [
+        "-n1",
+        "1600",
+        "-n2",
+        "40",
+        "-n3",
+        "160",
+        "-m",
+        "1280",
+        "-r1",
+        "1.2"
+      ]
+    },
+    {
+      "label": "circle_3l_tanh_tanh_sin, N=40, Nc=1920, m=1280",
+      "script": "experiments/ex1_flower/ex1_case2/circle_2d_3l_tanh_tanh_sin.py",
+      "arguments": [
+        "-n1",
+        "1600",
+        "-n2",
+        "40",
+        "-n3",
+        "160",
+        "-m",
+        "1280",
+        "-r1",
+        "1.2"
+      ]
+    },
+    {
+      "label": "circle_3l_sin_sin_sin, N=40, Nc=1920, m=1280",
+      "script": "experiments/ex1_flower/ex1_case2/circle_2d_3l_sin_sin_sin.py",
+      "arguments": [
+        "-n1",
+        "1600",
+        "-n2",
+        "40",
+        "-n3",
+        "160",
+        "-m",
+        "1280",
+        "-r1",
+        "1.2"
+      ]
+    },
+    {
+      "label": "circle_1l_tanh, N=60, Nc=4080, m=1280",
+      "script": "experiments/ex1_flower/ex1_case2/circle_2d_1l.py",
+      "arguments": [
+        "-n1",
+        "3600",
+        "-n2",
+        "60",
+        "-n3",
+        "240",
+        "-m",
+        "1280",
+        "-r1",
+        "1.2",
+        "-r2",
+        "5"
+      ]
+    },
+    {
+      "label": "circle_1l_sin, N=60, Nc=4080, m=1280",
+      "script": "experiments/ex1_flower/ex1_case2/circle_2d_1l.py",
+      "arguments": [
+        "-n1",
+        "3600",
+        "-n2",
+        "60",
+        "-n3",
+        "240",
+        "-m",
+        "1280",
+        "-r1",
+        "1.2",
+        "-r2",
+        "24",
+        "--outer-activation",
+        "sin"
+      ]
+    },
+    {
+      "label": "circle_2l_tanh_sin, N=60, Nc=4080, m=1280",
+      "script": "experiments/ex1_flower/ex1_case2/circle_2d_2l_tanh_sin.py",
+      "arguments": [
+        "-n1",
+        "3600",
+        "-n2",
+        "60",
+        "-n3",
+        "240",
+        "-m",
+        "1280",
+        "-r1",
+        "1.2"
+      ]
+    },
+    {
+      "label": "circle_2l_sin_sin, N=60, Nc=4080, m=1280",
+      "script": "experiments/ex1_flower/ex1_case2/circle_2d_2l_sin_sin.py",
+      "arguments": [
+        "-n1",
+        "3600",
+        "-n2",
+        "60",
+        "-n3",
+        "240",
+        "-m",
+        "1280",
+        "-r1",
+        "1.2"
+      ]
+    },
+    {
+      "label": "circle_3l_tanh_tanh_sin, N=60, Nc=4080, m=1280",
+      "script": "experiments/ex1_flower/ex1_case2/circle_2d_3l_tanh_tanh_sin.py",
+      "arguments": [
+        "-n1",
+        "3600",
+        "-n2",
+        "60",
+        "-n3",
+        "240",
+        "-m",
+        "1280",
+        "-r1",
+        "1.2"
+      ]
+    },
+    {
+      "label": "circle_3l_sin_sin_sin, N=60, Nc=4080, m=1280",
+      "script": "experiments/ex1_flower/ex1_case2/circle_2d_3l_sin_sin_sin.py",
+      "arguments": [
+        "-n1",
+        "3600",
+        "-n2",
+        "60",
+        "-n3",
+        "240",
+        "-m",
+        "1280",
+        "-r1",
+        "1.2"
+      ]
+    },
+    {
+      "label": "circle_1l_tanh, N=80, Nc=7040, m=1280",
+      "script": "experiments/ex1_flower/ex1_case2/circle_2d_1l.py",
+      "arguments": [
+        "-n1",
+        "6400",
+        "-n2",
+        "80",
+        "-n3",
+        "320",
+        "-m",
+        "1280",
+        "-r1",
+        "1.2",
+        "-r2",
+        "5"
+      ]
+    },
+    {
+      "label": "circle_1l_sin, N=80, Nc=7040, m=1280",
+      "script": "experiments/ex1_flower/ex1_case2/circle_2d_1l.py",
+      "arguments": [
+        "-n1",
+        "6400",
+        "-n2",
+        "80",
+        "-n3",
+        "320",
+        "-m",
+        "1280",
+        "-r1",
+        "1.2",
+        "-r2",
+        "24",
+        "--outer-activation",
+        "sin"
+      ]
+    },
+    {
+      "label": "circle_2l_tanh_sin, N=80, Nc=7040, m=1280",
+      "script": "experiments/ex1_flower/ex1_case2/circle_2d_2l_tanh_sin.py",
+      "arguments": [
+        "-n1",
+        "6400",
+        "-n2",
+        "80",
+        "-n3",
+        "320",
+        "-m",
+        "1280",
+        "-r1",
+        "1.2"
+      ]
+    },
+    {
+      "label": "circle_2l_sin_sin, N=80, Nc=7040, m=1280",
+      "script": "experiments/ex1_flower/ex1_case2/circle_2d_2l_sin_sin.py",
+      "arguments": [
+        "-n1",
+        "6400",
+        "-n2",
+        "80",
+        "-n3",
+        "320",
+        "-m",
+        "1280",
+        "-r1",
+        "1.2"
+      ]
+    },
+    {
+      "label": "circle_3l_tanh_tanh_sin, N=80, Nc=7040, m=1280",
+      "script": "experiments/ex1_flower/ex1_case2/circle_2d_3l_tanh_tanh_sin.py",
+      "arguments": [
+        "-n1",
+        "6400",
+        "-n2",
+        "80",
+        "-n3",
+        "320",
+        "-m",
+        "1280",
+        "-r1",
+        "1.2"
+      ]
+    },
+    {
+      "label": "circle_3l_sin_sin_sin, N=80, Nc=7040, m=1280",
+      "script": "experiments/ex1_flower/ex1_case2/circle_2d_3l_sin_sin_sin.py",
+      "arguments": [
+        "-n1",
+        "6400",
+        "-n2",
+        "80",
+        "-n3",
+        "320",
+        "-m",
+        "1280",
+        "-r1",
+        "1.2"
+      ]
+    },
+    {
+      "label": "circle_1l_tanh, N=100, Nc=10800, m=1280",
+      "script": "experiments/ex1_flower/ex1_case2/circle_2d_1l.py",
+      "arguments": [
+        "-n1",
+        "10000",
+        "-n2",
+        "100",
+        "-n3",
+        "400",
+        "-m",
+        "1280",
+        "-r1",
+        "1.2",
+        "-r2",
+        "5"
+      ]
+    },
+    {
+      "label": "circle_1l_sin, N=100, Nc=10800, m=1280",
+      "script": "experiments/ex1_flower/ex1_case2/circle_2d_1l.py",
+      "arguments": [
+        "-n1",
+        "10000",
+        "-n2",
+        "100",
+        "-n3",
+        "400",
+        "-m",
+        "1280",
+        "-r1",
+        "1.2",
+        "-r2",
+        "24",
+        "--outer-activation",
+        "sin"
+      ]
+    },
+    {
+      "label": "circle_2l_tanh_sin, N=100, Nc=10800, m=1280",
+      "script": "experiments/ex1_flower/ex1_case2/circle_2d_2l_tanh_sin.py",
+      "arguments": [
+        "-n1",
+        "10000",
+        "-n2",
+        "100",
+        "-n3",
+        "400",
+        "-m",
+        "1280",
+        "-r1",
+        "1.2"
+      ]
+    },
+    {
+      "label": "circle_2l_sin_sin, N=100, Nc=10800, m=1280",
+      "script": "experiments/ex1_flower/ex1_case2/circle_2d_2l_sin_sin.py",
+      "arguments": [
+        "-n1",
+        "10000",
+        "-n2",
+        "100",
+        "-n3",
+        "400",
+        "-m",
+        "1280",
+        "-r1",
+        "1.2"
+      ]
+    },
+    {
+      "label": "circle_3l_tanh_tanh_sin, N=100, Nc=10800, m=1280",
+      "script": "experiments/ex1_flower/ex1_case2/circle_2d_3l_tanh_tanh_sin.py",
+      "arguments": [
+        "-n1",
+        "10000",
+        "-n2",
+        "100",
+        "-n3",
+        "400",
+        "-m",
+        "1280",
+        "-r1",
+        "1.2"
+      ]
+    },
+    {
+      "label": "circle_3l_sin_sin_sin, N=100, Nc=10800, m=1280",
+      "script": "experiments/ex1_flower/ex1_case2/circle_2d_3l_sin_sin_sin.py",
+      "arguments": [
+        "-n1",
+        "10000",
+        "-n2",
+        "100",
+        "-n3",
+        "400",
+        "-m",
+        "1280",
+        "-r1",
+        "1.2"
+      ]
+    }
+  ]
+}

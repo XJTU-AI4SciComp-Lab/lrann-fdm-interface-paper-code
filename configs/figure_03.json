@@ -1,0 +1,29 @@
+{
+  "name": "figure_03",
+  "script": "experiments/ex1_flower/ex1_case1/flower_interface_paper_final.py",
+  "seed": null,
+  "repeats": 1,
+  "arguments": [
+    "-n1",
+    "1600",
+    "-n2",
+    "40",
+    "-n3",
+    "160",
+    "-m",
+    "320",
+    "-r1",
+    "1.6",
+    "-r2",
+    "0.7",
+    "-alpha1",
+    "0.0001",
+    "-alpha2",
+    "10000"
+  ],
+  "figure": {
+    "number": 3,
+    "geometry": "flower",
+    "resolution": 300
+  }
+}

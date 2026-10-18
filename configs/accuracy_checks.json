@@ -1,0 +1,512 @@
+{
+  "cases": [
+    {
+      "name": "flower",
+      "paper_location": "Table 1: Nc=1920, m=320",
+      "metric": "err_rL2",
+      "paper_value": 9.78e-08,
+      "config": {
+        "name": "flower",
+        "script": "experiments/ex1_flower/ex1_case1/flower_interface_paper_final.py",
+        "seed": null,
+        "repeats": 10,
+        "threads": 1,
+        "arguments": [
+          "-n1",
+          "1600",
+          "-n2",
+          "40",
+          "-n3",
+          "160",
+          "-m",
+          "320"
+        ]
+      }
+    },
+    {
+      "name": "mixed_flower",
+      "paper_location": "Table 3: Nc=1920, m=160",
+      "metric": "err_rL2",
+      "paper_value": 1.14e-07,
+      "config": {
+        "name": "mixed_flower",
+        "script": "experiments/ex1_flower/ex1_case1/mix_flower_interface_paper_final_2.py",
+        "seed": null,
+        "repeats": 10,
+        "threads": 1,
+        "arguments": [
+          "-n1",
+          "1600",
+          "-n2",
+          "40",
+          "-n3",
+          "160",
+          "-m",
+          "160"
+        ]
+      }
+    },
+    {
+      "name": "sphere",
+      "paper_location": "Table 7: Nc=2200, m=160",
+      "metric": "err_L2",
+      "paper_value": 0.0401,
+      "config": {
+        "name": "sphere",
+        "script": "experiments/ex2_sphere/sphere_interface_paper_final.py",
+        "seed": null,
+        "repeats": 10,
+        "threads": 1,
+        "arguments": [
+          "-n1",
+          "1000",
+          "-n2",
+          "100",
+          "-n3",
+          "600",
+          "-m",
+          "160",
+          "-alpha2",
+          "100"
+        ]
+      }
+    },
+    {
+      "name": "mixed_sphere",
+      "paper_location": "Table 14: Nc=2200, m=160",
+      "metric": "err_L2",
+      "paper_value": 0.00364,
+      "config": {
+        "name": "mixed_sphere",
+        "script": "experiments/ex2_sphere/mix_sphere_interface.py",
+        "seed": null,
+        "repeats": 10,
+        "threads": 1,
+        "arguments": [
+          "-n1",
+          "1000",
+          "-n2",
+          "100",
+          "-n3",
+          "600",
+          "-m",
+          "160",
+          "-alpha2",
+          "100"
+        ]
+      }
+    },
+    {
+      "name": "three",
+      "paper_location": "Table 17: beta=(1,2,3,4)",
+      "metric": "err_rL2",
+      "paper_value": 4.35e-09,
+      "config": {
+        "name": "three",
+        "script": "experiments/ex3_three_interface/three_interface_paper_final.py",
+        "seed": null,
+        "repeats": 10,
+        "threads": 1,
+        "arguments": [
+          "-n1",
+          "3600",
+          "-n2",
+          "60",
+          "-n3",
+          "240",
+          "-m",
+          "320",
+          "-alpha0",
+          "1",
+          "-alpha1",
+          "2",
+          "-alpha2",
+          "3",
+          "-alpha3",
+          "4"
+        ]
+      }
+    },
+    {
+      "name": "three_ad",
+      "paper_location": "Table 18: beta=(1,2,3,4)",
+      "metric": "err_rL2",
+      "paper_value": 2.73e-10,
+      "config": {
+        "name": "three_ad",
+        "script": "experiments/ex3_three_interface/three_interface_auto_diff_paper.py",
+        "seed": null,
+        "repeats": 10,
+        "threads": 1,
+        "arguments": [
+          "-n1",
+          "3600",
+          "-n2",
+          "60",
+          "-n3",
+          "240",
+          "-m",
+          "320",
+          "-alpha0",
+          "1",
+          "-alpha1",
+          "2",
+          "-alpha2",
+          "3",
+          "-alpha3",
+          "4"
+        ]
+      }
+    },
+    {
+      "name": "three_ad_legacy_cutoff",
+      "paper_location": "Table 18: beta=(1,2,3,4)",
+      "metric": "err_rL2",
+      "paper_value": 2.73e-10,
+      "config": {
+        "name": "three_ad",
+        "script": "experiments/ex3_three_interface/three_interface_auto_diff_paper.py",
+        "seed": null,
+        "repeats": 10,
+        "threads": 1,
+        "arguments": [
+          "-n1",
+          "3600",
+          "-n2",
+          "60",
+          "-n3",
+          "240",
+          "-m",
+          "320",
+          "-alpha0",
+          "1",
+          "-alpha1",
+          "2",
+          "-alpha2",
+          "3",
+          "-alpha3",
+          "4"
+        ],
+        "numpy_lstsq_rcond": -1
+      }
+    },
+    {
+      "name": "square",
+      "paper_location": "Table 20: Nc=10800, m=1280",
+      "metric": "err_rL2",
+      "paper_value": 3.7e-05,
+      "config": {
+        "name": "square",
+        "script": "experiments/ex4_square/square_interface_oscillate_solution.py",
+        "seed": null,
+        "repeats": 10,
+        "threads": 1,
+        "arguments": [
+          "-n1",
+          "10000",
+          "-n2",
+          "100",
+          "-n3",
+          "400",
+          "-m",
+          "1280"
+        ]
+      }
+    },
+    {
+      "name": "cosine",
+      "paper_location": "Table 22: Nc=1920, m=640",
+      "metric": "err_rL2",
+      "paper_value": 0.000154,
+      "config": {
+        "name": "cosine",
+        "script": "experiments/ex4_square/square_interface_oscillate_cosine.py",
+        "seed": null,
+        "repeats": 10,
+        "threads": 1,
+        "arguments": [
+          "-n1",
+          "1600",
+          "-n2",
+          "40",
+          "-n3",
+          "160",
+          "-m",
+          "640",
+          "-k1",
+          "3",
+          "-k2",
+          "2",
+          "-r1",
+          "25",
+          "-r2",
+          "12"
+        ]
+      }
+    },
+    {
+      "name": "cosine_repeat_batch2",
+      "paper_location": "Table 22: Nc=1920, m=640",
+      "metric": "err_rL2",
+      "paper_value": 0.000154,
+      "config": {
+        "name": "cosine",
+        "script": "experiments/ex4_square/square_interface_oscillate_cosine.py",
+        "seed": null,
+        "repeats": 10,
+        "threads": 1,
+        "arguments": [
+          "-n1",
+          "1600",
+          "-n2",
+          "40",
+          "-n3",
+          "160",
+          "-m",
+          "640",
+          "-k1",
+          "3",
+          "-k2",
+          "2",
+          "-r1",
+          "25",
+          "-r2",
+          "12"
+        ]
+      }
+    },
+    {
+      "name": "cosine_dense",
+      "paper_location": "Table 22: Nc=10800, m=1280",
+      "metric": "err_rL2",
+      "paper_value": 5.13e-06,
+      "config": {
+        "name": "cosine",
+        "script": "experiments/ex4_square/square_interface_oscillate_cosine.py",
+        "seed": null,
+        "repeats": 10,
+        "threads": 1,
+        "arguments": [
+          "-n1",
+          "10000",
+          "-n2",
+          "100",
+          "-n3",
+          "400",
+          "-m",
+          "1280",
+          "-k1",
+          "3",
+          "-k2",
+          "2",
+          "-r1",
+          "25",
+          "-r2",
+          "12"
+        ]
+      }
+    },
+    {
+      "name": "high_dimension",
+      "paper_location": "Table 24: d=5, m=225",
+      "metric": "err_rL2",
+      "paper_value": 5.17e-07,
+      "config": {
+        "name": "high_dimension",
+        "script": "experiments/ex5_high_dimension/hyper_plane_interface_paper_final.py",
+        "seed": null,
+        "repeats": 10,
+        "threads": 1,
+        "arguments": [
+          "-dim",
+          "5",
+          "-m",
+          "225"
+        ]
+      }
+    },
+    {
+      "name": "moving",
+      "paper_location": "Table 26: Nc=2000, m=640",
+      "metric": "err_rL2",
+      "paper_value": 5.96e-06,
+      "config": {
+        "name": "moving",
+        "script": "experiments/ex6_moving_interface/heat_interface_change_paper_final.py",
+        "seed": null,
+        "repeats": 10,
+        "threads": 1,
+        "arguments": [
+          "-n1",
+          "1000",
+          "-n2",
+          "100",
+          "-n3",
+          "500",
+          "-m",
+          "640",
+          "-alpha1",
+          "1",
+          "-alpha2",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "circle_1l_tanh",
+      "paper_location": "Table 5: Nc=1920, m=1280",
+      "metric": "err_rL2",
+      "paper_value": 0.148,
+      "config": {
+        "name": "circle_1l_tanh",
+        "script": "experiments/ex1_flower/ex1_case2/circle_2d_1l.py",
+        "seed": null,
+        "repeats": 3,
+        "threads": 1,
+        "arguments": [
+          "-n1",
+          "1600",
+          "-n2",
+          "40",
+          "-n3",
+          "160",
+          "-m",
+          "1280",
+          "-r1",
+          "1.2",
+          "-r2",
+          "5"
+        ]
+      }
+    },
+    {
+      "name": "circle_1l_sin",
+      "paper_location": "Table 5: Nc=1920, m=1280",
+      "metric": "err_rL2",
+      "paper_value": 0.0732,
+      "config": {
+        "name": "circle_1l_sin",
+        "script": "experiments/ex1_flower/ex1_case2/circle_2d_1l.py",
+        "seed": null,
+        "repeats": 3,
+        "threads": 1,
+        "arguments": [
+          "-n1",
+          "1600",
+          "-n2",
+          "40",
+          "-n3",
+          "160",
+          "-m",
+          "1280",
+          "-r1",
+          "1.2",
+          "-r2",
+          "24",
+          "--outer-activation",
+          "sin"
+        ]
+      }
+    },
+    {
+      "name": "circle_2l_tanh_sin",
+      "paper_location": "Table 5: Nc=1920, m=1280",
+      "metric": "err_rL2",
+      "paper_value": 0.0526,
+      "config": {
+        "name": "circle_2l_tanh_sin",
+        "script": "experiments/ex1_flower/ex1_case2/circle_2d_2l_tanh_sin.py",
+        "seed": null,
+        "repeats": 3,
+        "threads": 1,
+        "arguments": [
+          "-n1",
+          "1600",
+          "-n2",
+          "40",
+          "-n3",
+          "160",
+          "-m",
+          "1280",
+          "-r1",
+          "1.2"
+        ]
+      }
+    },
+    {
+      "name": "circle_2l_sin_sin",
+      "paper_location": "Table 5: Nc=1920, m=1280",
+      "metric": "err_rL2",
+      "paper_value": 0.0171,
+      "config": {
+        "name": "circle_2l_sin_sin",
+        "script": "experiments/ex1_flower/ex1_case2/circle_2d_2l_sin_sin.py",
+        "seed": null,
+        "repeats": 3,
+        "threads": 1,
+        "arguments": [
+          "-n1",
+          "1600",
+          "-n2",
+          "40",
+          "-n3",
+          "160",
+          "-m",
+          "1280",
+          "-r1",
+          "1.2"
+        ]
+      }
+    },
+    {
+      "name": "circle_3l_tanh_tanh_sin",
+      "paper_location": "Table 5: Nc=1920, m=1280",
+      "metric": "err_rL2",
+      "paper_value": 0.0442,
+      "config": {
+        "name": "circle_3l_tanh_tanh_sin",
+        "script": "experiments/ex1_flower/ex1_case2/circle_2d_3l_tanh_tanh_sin.py",
+        "seed": null,
+        "repeats": 3,
+        "threads": 1,
+        "arguments": [
+          "-n1",
+          "1600",
+          "-n2",
+          "40",
+          "-n3",
+          "160",
+          "-m",
+          "1280",
+          "-r1",
+          "1.2"
+        ]
+      }
+    },
+    {
+      "name": "circle_3l_sin_sin_sin",
+      "paper_location": "Table 5: Nc=1920, m=1280",
+      "metric": "err_rL2",
+      "paper_value": 0.205,
+      "config": {
+        "name": "circle_3l_sin_sin_sin",
+        "script": "experiments/ex1_flower/ex1_case2/circle_2d_3l_sin_sin_sin.py",
+        "seed": null,
+        "repeats": 3,
+        "threads": 1,
+        "arguments": [
+          "-n1",
+          "1600",
+          "-n2",
+          "40",
+          "-n3",
+          "160",
+          "-m",
+          "1280",
+          "-r1",
+          "1.2"
+        ]
+      }
+    }
+  ]
+}
