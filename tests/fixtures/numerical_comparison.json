@@ -1,0 +1,539 @@
+{
+  "environment": {
+    "python": "3.12.7",
+    "torch": "2.5.1+cpu",
+    "numpy": "2.1.3",
+    "scipy": "1.14.1",
+    "matplotlib": "3.9.2",
+    "platform": "Windows x64",
+    "threads": 1
+  },
+  "seed_before_import": 2026,
+  "initial_default_dtype": "torch.float32",
+  "solver_parameters": {
+    "N1": 64,
+    "N2": 8,
+    "N3": 32,
+    "n_int": 4,
+    "m": 8
+  },
+  "high_dimension_overrides": {
+    "dim": 3,
+    "N1": 4,
+    "m_d": 2,
+    "n_int": 32
+  },
+  "scope": "Fifteen retained paper solvers, selected from the original 47-file comparison. One small main call per solver; default single-layer circle activation is tanh.",
+  "scripts": {
+    "experiments/ex4_square/square_interface_oscillate_cosine.py": {
+      "identical": true,
+      "original_sha256": "4eb26987dbc9c291e4c47dfe3b33358a1538faeb8db1c2433e6c727a533551b1",
+      "refactored_sha256": "4eb26987dbc9c291e4c47dfe3b33358a1538faeb8db1c2433e6c727a533551b1",
+      "local_arrays_and_models": 40,
+      "least_squares": [
+        {
+          "a": {
+            "shape": [
+              352,
+              16
+            ],
+            "dtype": "float64",
+            "sha256": "16541d9b1b21b4b773cef03cb87ad28b511a9cb179a17d4b7cf2a16d3a4fc015"
+          },
+          "b": {
+            "shape": [
+              352,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "ea85bb9cf16933f1602be49c3ed9c5f564a3c97d22a35d715274beba8ab45f28"
+          },
+          "solution": {
+            "shape": [
+              16,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "5dc4dc4bade902406081c43566c92db371db164d8af1cca2844ca62c82e1b117"
+          }
+        }
+      ]
+    },
+    "experiments/ex1_flower/ex1_case2/circle_2d_1l.py": {
+      "identical": true,
+      "original_sha256": "1a2409191034f51fc789185e900e8442993056436985e48755a9f1337b411678",
+      "refactored_sha256": "1a2409191034f51fc789185e900e8442993056436985e48755a9f1337b411678",
+      "local_arrays_and_models": 35,
+      "least_squares": [
+        {
+          "a": {
+            "shape": [
+              160,
+              16
+            ],
+            "dtype": "float64",
+            "sha256": "9278a416847c8dc5663a647d08e99eea8961b3c9e23c9576254424a4881c6ee1"
+          },
+          "b": {
+            "shape": [
+              160,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "f806f538731a3ebcc66c38d36a7e73035e63841d8d106c8a5e86b4eaf97d0532"
+          },
+          "solution": {
+            "shape": [
+              16,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "391db26ed59501447db0e8813df8c1424d9aa3968cc5b28bb8a65af1c81f9cdd"
+          }
+        }
+      ]
+    },
+    "experiments/ex1_flower/ex1_case2/circle_2d_2l_sin_sin.py": {
+      "identical": true,
+      "original_sha256": "4b44dc9a8d482db78687d2130e853ed135982bc8993aaad88eb1756ec26043f2",
+      "refactored_sha256": "4b44dc9a8d482db78687d2130e853ed135982bc8993aaad88eb1756ec26043f2",
+      "local_arrays_and_models": 43,
+      "least_squares": [
+        {
+          "a": {
+            "shape": [
+              160,
+              16
+            ],
+            "dtype": "float64",
+            "sha256": "69143b0b9ae90ca31648dd1f2617cddcd14a1e84f3c98b11cb0c389c261271e1"
+          },
+          "b": {
+            "shape": [
+              160,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "4fadbfdcc07c93375eac02b48a8cd7ae097558d927b37a061e57039b0f382fcb"
+          },
+          "solution": {
+            "shape": [
+              16,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "ba293fc17b1cf48277ad3d4935daa612801f85d283071ee6f97b67ac049dafd4"
+          }
+        }
+      ]
+    },
+    "experiments/ex1_flower/ex1_case2/circle_2d_3l_sin_sin_sin.py": {
+      "identical": true,
+      "original_sha256": "965ebcc1942ef7a54d249dd56547c021c8420dede1eb45d1f2552cf635eb19fc",
+      "refactored_sha256": "965ebcc1942ef7a54d249dd56547c021c8420dede1eb45d1f2552cf635eb19fc",
+      "local_arrays_and_models": 35,
+      "least_squares": [
+        {
+          "a": {
+            "shape": [
+              160,
+              16
+            ],
+            "dtype": "float64",
+            "sha256": "29bb99273824da7bf3e6b0a709cdedfa76cbe11379a5215f22318e5158efb3f6"
+          },
+          "b": {
+            "shape": [
+              160,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "864b3ecd73eaa7087343242931b28261b2a033b15d5ac25cc1167a1a668d92ce"
+          },
+          "solution": {
+            "shape": [
+              16,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "5e16feb102633e59181a63c172a0eab4afdbe3a744dbf0a107bde5a40674f610"
+          }
+        }
+      ]
+    },
+    "experiments/ex2_sphere/mix_sphere_interface.py": {
+      "identical": true,
+      "original_sha256": "fdf76f496c75477dbac78c03dd59eb6412baee563f01953ace02466275837480",
+      "refactored_sha256": "fdf76f496c75477dbac78c03dd59eb6412baee563f01953ace02466275837480",
+      "local_arrays_and_models": 76,
+      "least_squares": [
+        {
+          "a": {
+            "shape": [
+              368,
+              64
+            ],
+            "dtype": "float64",
+            "sha256": "d11d421c34a89f30d435b2b76d1fb2d91393eca3d3756ccc43d1bfd56b495fc4"
+          },
+          "b": {
+            "shape": [
+              368,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "2933b11bcaa4358084db94f77fcded6d7ffdc3d2e1af86668da72fbff629c68b"
+          },
+          "solution": {
+            "shape": [
+              64,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "8c928ef0c2d4d98d4eeb7b739727ebdd97e79b2292b49fb77169185cab8722df"
+          }
+        }
+      ]
+    },
+    "experiments/ex2_sphere/sphere_interface_paper_final.py": {
+      "identical": true,
+      "original_sha256": "ba08eb7e2fe379bfc24b1db1f589554b907fb644bb03d883df4d38305ae7d361",
+      "refactored_sha256": "ba08eb7e2fe379bfc24b1db1f589554b907fb644bb03d883df4d38305ae7d361",
+      "local_arrays_and_models": 41,
+      "least_squares": [
+        {
+          "a": {
+            "shape": [
+              176,
+              16
+            ],
+            "dtype": "float64",
+            "sha256": "75574609bb5d21d927b95a6d8ae3496a37e945b66954aad673db534e39d3fff0"
+          },
+          "b": {
+            "shape": [
+              176,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "da760be3bbac595e8cfdf81e11817267ae968e70af08d39a80e5395a9339eab4"
+          },
+          "solution": {
+            "shape": [
+              16,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "9d118ad4452f4666599650ec3f75f5917c2ce595365170a6ce5d79360035ac59"
+          }
+        }
+      ]
+    },
+    "experiments/ex3_three_interface/three_interface_auto_diff_paper.py": {
+      "identical": true,
+      "original_sha256": "9558f8170af4cc8e91bc6936f73f504085bf7bfc7d60c4e3aa7b34328fab079d",
+      "refactored_sha256": "9558f8170af4cc8e91bc6936f73f504085bf7bfc7d60c4e3aa7b34328fab079d",
+      "local_arrays_and_models": 120,
+      "least_squares": [
+        {
+          "a": {
+            "shape": [
+              288,
+              32
+            ],
+            "dtype": "float64",
+            "sha256": "7b76b873534cff1e775e3d1fe94ee18d07a0d3ff0613e80915f19c96e6db488b"
+          },
+          "b": {
+            "shape": [
+              288,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "e79005f6ace6862856074f62db4e30f530908576fd0d71c193134b853fad9eb0"
+          },
+          "solution": {
+            "shape": [
+              32,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "3d164736ab00fa46507b014439e91097a29ca1fc3338887c18450c30a4d66add"
+          }
+        }
+      ]
+    },
+    "experiments/ex3_three_interface/three_interface_paper_final.py": {
+      "identical": true,
+      "original_sha256": "b42a51dc62e5b3d715829c26d1707a45d0fd65d79b3fc1bfbc75a2885b165cce",
+      "refactored_sha256": "b42a51dc62e5b3d715829c26d1707a45d0fd65d79b3fc1bfbc75a2885b165cce",
+      "local_arrays_and_models": 76,
+      "least_squares": [
+        {
+          "a": {
+            "shape": [
+              288,
+              32
+            ],
+            "dtype": "float64",
+            "sha256": "968161369f8a170f8fe95e20928f27692b937e61e4f71c5e30cdbc547927f3bf"
+          },
+          "b": {
+            "shape": [
+              288,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "e14c23fe0721816b875c15107efed3d6cf1f7afecac7009971cb6365f15a60fb"
+          },
+          "solution": {
+            "shape": [
+              32,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "9cc00a127db322f36f8b3ac84f7403477b55fdb4c2c37973bdebc4deb2193e80"
+          }
+        }
+      ]
+    },
+    "experiments/ex4_square/square_interface_oscillate_solution.py": {
+      "identical": true,
+      "original_sha256": "63bfbdb7c82f55efb60dfcd47c2efc202d8266a0f3f54d6173f4850052899b08",
+      "refactored_sha256": "63bfbdb7c82f55efb60dfcd47c2efc202d8266a0f3f54d6173f4850052899b08",
+      "local_arrays_and_models": 38,
+      "least_squares": [
+        {
+          "a": {
+            "shape": [
+              352,
+              16
+            ],
+            "dtype": "float64",
+            "sha256": "7c96a593fb607706746b16cb271a534e361003c75b5fe6bfa49a57d869e261bd"
+          },
+          "b": {
+            "shape": [
+              352,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "01649a58f6ff33b053e9424de044587fa47e8089ca126c5c62590dda8057ca63"
+          },
+          "solution": {
+            "shape": [
+              16,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "4521c7966869ee83bee5ef3f9fc9048cc8679187b9378f450a9d96f09639c9f9"
+          }
+        }
+      ]
+    },
+    "experiments/ex5_high_dimension/hyper_plane_interface_paper_final.py": {
+      "identical": true,
+      "original_sha256": "cd5f40b69008ed6899d5b2c2be3911797cbc66ef6a3bc055e4cc59a1292b70c6",
+      "refactored_sha256": "cd5f40b69008ed6899d5b2c2be3911797cbc66ef6a3bc055e4cc59a1292b70c6",
+      "local_arrays_and_models": 30,
+      "least_squares": [
+        {
+          "a": {
+            "shape": [
+              156,
+              16
+            ],
+            "dtype": "float64",
+            "sha256": "9dcae577b429aa9850c5c0eca49dbb1c0fb7ab473c7d6508fca538310c16cf25"
+          },
+          "b": {
+            "shape": [
+              156,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "504f4451af0668c2d04eb0526be2048025636e48c9b9275bf770582eef480c7f"
+          },
+          "solution": {
+            "shape": [
+              16,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "13ca03ae6e9e11e0b393c812825631fecea581190fded72b2e4124a295f8a47e"
+          }
+        }
+      ]
+    },
+    "experiments/ex6_moving_interface/heat_interface_change_paper_final.py": {
+      "identical": true,
+      "original_sha256": "19ffa1e9563b134e9ea3d2b90d38a4ebaa3d265d1bb88b7f9a5d35c7807de959",
+      "refactored_sha256": "19ffa1e9563b134e9ea3d2b90d38a4ebaa3d265d1bb88b7f9a5d35c7807de959",
+      "local_arrays_and_models": 46,
+      "least_squares": [
+        {
+          "a": {
+            "shape": [
+              168,
+              16
+            ],
+            "dtype": "float64",
+            "sha256": "0a84632c3b45126ee24287c7cf7d82b6eaeec9b4d9ec747d5339e1b54448e651"
+          },
+          "b": {
+            "shape": [
+              168,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "63265c8e0ba0ae2d00338ce4822a49b0750a93d15832b7a18efa86abb0ff68bf"
+          },
+          "solution": {
+            "shape": [
+              16,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "86fcf10055e5501464db38f06b6ff553fddc1f0edf6dc248284d15ba71d86787"
+          }
+        }
+      ]
+    },
+    "experiments/ex1_flower/ex1_case1/flower_interface_paper_final.py": {
+      "identical": true,
+      "original_sha256": "b18a3e160e00179b68de43c84179ae7d8ce4fd527f00b32adf0e2a7f33fcfe7b",
+      "refactored_sha256": "b18a3e160e00179b68de43c84179ae7d8ce4fd527f00b32adf0e2a7f33fcfe7b",
+      "local_arrays_and_models": 54,
+      "least_squares": [
+        {
+          "a": {
+            "shape": [
+              160,
+              16
+            ],
+            "dtype": "float64",
+            "sha256": "f3603fa6b4bb13bff6880c77bef04ef3f59294e93199de9948de6d5e36b89c70"
+          },
+          "b": {
+            "shape": [
+              160,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "9c9db981d09e0c84e72b6a5f26fa9756ec2cb99bb89c53205be70e24f92d06e9"
+          },
+          "solution": {
+            "shape": [
+              16,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "9644d9ed8c372f71d0b54c31f83d17f9483b0ea703e8fb4de13698405bcb88bb"
+          }
+        }
+      ]
+    },
+    "experiments/ex1_flower/ex1_case1/mix_flower_interface_paper_final_2.py": {
+      "identical": true,
+      "original_sha256": "82c55679828f38af9bbba89d1c2ccabdbf0c58a1dda6a66072ee4e8c9f2fc3cb",
+      "refactored_sha256": "82c55679828f38af9bbba89d1c2ccabdbf0c58a1dda6a66072ee4e8c9f2fc3cb",
+      "local_arrays_and_models": 66,
+      "least_squares": [
+        {
+          "a": {
+            "shape": [
+              288,
+              48
+            ],
+            "dtype": "float64",
+            "sha256": "8619932331a9f9dfca59a4838d73d90efe0d44398adcb0b91bda0c8fa151b6c2"
+          },
+          "b": {
+            "shape": [
+              288,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "04331337776371725319a2cb0057d9ccd863935faa99958c7ac523280ead5d78"
+          },
+          "solution": {
+            "shape": [
+              48,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "33406514da71f5cd8e1155a411e39761b025c32606a85db8c0fdd68d68067331"
+          }
+        }
+      ]
+    },
+    "experiments/ex1_flower/ex1_case2/circle_2d_2l_tanh_sin.py": {
+      "identical": true,
+      "original_sha256": "5fc93af1be6704db82f8e8b6fce2ba6029441425ae5b3fee1064287cf38651f1",
+      "refactored_sha256": "5fc93af1be6704db82f8e8b6fce2ba6029441425ae5b3fee1064287cf38651f1",
+      "local_arrays_and_models": 35,
+      "least_squares": [
+        {
+          "a": {
+            "shape": [
+              160,
+              16
+            ],
+            "dtype": "float64",
+            "sha256": "8de5a6004957728d74c4ae5f2b32312880e41e80d334770e4f54649e0c59192f"
+          },
+          "b": {
+            "shape": [
+              160,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "4fadbfdcc07c93375eac02b48a8cd7ae097558d927b37a061e57039b0f382fcb"
+          },
+          "solution": {
+            "shape": [
+              16,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "abb73fd0294d0315bfb655cd3ce6e22e97a274f8e6d7fcd5a36e6e51659625a6"
+          }
+        }
+      ]
+    },
+    "experiments/ex1_flower/ex1_case2/circle_2d_3l_tanh_tanh_sin.py": {
+      "identical": true,
+      "original_sha256": "345726d2f89992bfc92ee76383b22b659ad0fa119ac6821cd6da9182b747f363",
+      "refactored_sha256": "345726d2f89992bfc92ee76383b22b659ad0fa119ac6821cd6da9182b747f363",
+      "local_arrays_and_models": 35,
+      "least_squares": [
+        {
+          "a": {
+            "shape": [
+              160,
+              16
+            ],
+            "dtype": "float64",
+            "sha256": "f7d8435d21196d6bdb65637ed900e6c2b51f244afa750811e8c7602a718283ba"
+          },
+          "b": {
+            "shape": [
+              160,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "864b3ecd73eaa7087343242931b28261b2a033b15d5ac25cc1167a1a668d92ce"
+          },
+          "solution": {
+            "shape": [
+              16,
+              1
+            ],
+            "dtype": "float64",
+            "sha256": "12a98d3dacca62671dd532269348cb42561fc9c7c683a5532d6c6904d0aaf98c"
+          }
+        }
+      ]
+    }
+  }
+}

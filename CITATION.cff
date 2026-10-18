@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated paper."
+title: "LRaNN-FDM: Local randomized neural networks with finite difference methods for interface problems"
+type: software
+authors:
+  - family-names: Li
+    given-names: Yunlong
+  - family-names: Wang
+    given-names: Fei
+license: BSD-3-Clause
+preferred-citation:
+  type: article
+  title: "Local randomized neural networks with finite difference methods for interface problems"
+  authors:
+    - family-names: Li
+      given-names: Yunlong
+    - family-names: Wang
+      given-names: Fei
+  journal: "Journal of Computational Physics"
+  volume: "529"
+  start: "113847"
+  year: 2025
+  doi: 10.1016/j.jcp.2025.113847

@@ -1,0 +1,7 @@
+# Versions used for the local before/after numerical comparison (Python 3.12).
+numpy==2.1.3
+scipy==1.14.1
+matplotlib==3.9.2
+torch==2.5.1
+pandas==2.2.3
+threadpoolctl==3.6.0

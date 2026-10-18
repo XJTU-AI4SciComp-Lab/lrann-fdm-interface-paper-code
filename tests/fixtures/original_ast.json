@@ -1,0 +1,62 @@
+{
+  "experiments/ex4_square/square_interface_oscillate_cosine.py": {
+    "original": "square_interface_splution_cos.py",
+    "sha256": "dd4503d4682a299e07c299a60a1f3ac20231a29284bf4072d3c40fc5f5cc98b5"
+  },
+  "experiments/ex1_flower/ex1_case2/circle_2d_1l.py": {
+    "original": "deep/circle_2d_1L.py",
+    "sha256": "5d2ffb7818de3b4480741ebc603eb0880366e74a300d4bc0c0be622929f94f82"
+  },
+  "experiments/ex1_flower/ex1_case2/circle_2d_2l_sin_sin.py": {
+    "original": "deep/circle_2d_2L.py",
+    "sha256": "453eaf32063e62b013828607a28e9b4ace4b774233fe26fb50466a6c48fe4eb1"
+  },
+  "experiments/ex1_flower/ex1_case2/circle_2d_3l_sin_sin_sin.py": {
+    "original": "deep/circle_2d_3L.py",
+    "sha256": "8a65a9cabe912e45b23f54b207970dff8d999f88709f441a72946288764fec40"
+  },
+  "experiments/ex2_sphere/mix_sphere_interface.py": {
+    "original": "ex2_sphere/mix_sphere_interface.py",
+    "sha256": "358960750161e4581cff06c1e8cd68a49270c4fc1cead51d3ba641166816526b"
+  },
+  "experiments/ex2_sphere/sphere_interface_paper_final.py": {
+    "original": "ex2_sphere/sphere_interface_paper_final.py",
+    "sha256": "60131bc0b0b8d97df10207034bed376c5705ea399afcae47927ea9b491a17047"
+  },
+  "experiments/ex3_three_interface/three_interface_auto_diff_paper.py": {
+    "original": "ex3_three_interface/three_interface_auto_diff_paper.py",
+    "sha256": "50eabbea2d7f6b6b55e54e27c8b18af144029e3d9992fce02007fd4b22533be7"
+  },
+  "experiments/ex3_three_interface/three_interface_paper_final.py": {
+    "original": "ex3_three_interface/three_interface_paper_final.py",
+    "sha256": "31611ae15653b104e94901b8f782ad5e52eb30c65c6a2bb12f6a8ab63b501582"
+  },
+  "experiments/ex4_square/square_interface_oscillate_solution.py": {
+    "original": "ex4_square/square_interface_oscillate_solution.py",
+    "sha256": "634baef8cd592e667fbf51e05770e639a46cce8313fa51ab89b1824e7ba9b1f4"
+  },
+  "experiments/ex5_high_dimension/hyper_plane_interface_paper_final.py": {
+    "original": "ex5_high_dimension/hyper_plane_interface_paper_final.py",
+    "sha256": "094a0ed5411467c3bd1ccbfd7e28bc4b92f1d6d7b4580377260bc4085bea3aeb"
+  },
+  "experiments/ex6_moving_interface/heat_interface_change_paper_final.py": {
+    "original": "ex6_moving_interface/heat_interface_change_paper_final.py",
+    "sha256": "8ec97ee59c1899aa4c427d05ceb6385c045190790165f68164017740ae78768b"
+  },
+  "experiments/ex1_flower/ex1_case1/flower_interface_paper_final.py": {
+    "original": "ex1_flower/ex1_case1/flower_interface_paper_final.py",
+    "sha256": "35ecf3c805b69418b9ed0209831538c5da0fed5439a3ba9d0dbba97bc73f462a"
+  },
+  "experiments/ex1_flower/ex1_case1/mix_flower_interface_paper_final_2.py": {
+    "original": "ex1_flower/ex1_case1/mix_flower_interface_paper_final_2.py",
+    "sha256": "8aa8a6585694f25509079b16539bbaa4195adedccbb0d909cb4fc44324805926"
+  },
+  "experiments/ex1_flower/ex1_case2/circle_2d_2l_tanh_sin.py": {
+    "original": "ex1_flower/ex1_case2/circle_2d_2L.py",
+    "sha256": "bde2c0b42968963fd2890162ba4f2b51c4026911a31b6588da4d627667693af9"
+  },
+  "experiments/ex1_flower/ex1_case2/circle_2d_3l_tanh_tanh_sin.py": {
+    "original": "ex1_flower/ex1_case2/circle_2d_3L.py",
+    "sha256": "1bb90a5a25520129a2978f54d66ed98a38f8814970745ccb668ea954e52ef96e"
+  }
+}
